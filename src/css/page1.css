@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__box-gibbet{
+    position: relative;
+}
+
+.header__box-gibbet span{
+    position: absolute;
+    top: 252px;
+    right: 108px;
+    font-size: 35px;
+}
