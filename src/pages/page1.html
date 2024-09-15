@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Questão 1 - Palpite Certeiro</title>
     <link rel="stylesheet" href="../css/page1.css">
-    <script src="../js/chancesRemaining.js" defer></script>
+    <script src="../js/chancesRemainingPage1.js" defer></script>
 </head>
 <body>
     <header>
@@ -15,7 +15,10 @@
                 <span id="chances"></span>
             </picture>
             
-            <div class="question"></div><!--question-->
+            <div class="header__question">
+                <h1>Pergunta 1:</h1>
+                <p>Qual é o nome do operador lógico representado pelo símbolo '∨', que indica a união entre duas proposições, sendo verdadeiro quando pelo menos uma delas for verdadeira?</p>
+            </div><!--header__question-->
         </div><!--header__box-gibbet-->
 
         <div class="header__tips">
@@ -27,5 +30,24 @@
             </div><!--header__modal__tips-->
         </div><!--header__tips-->
     </header>
+
+    <div class="important-question">
+        <p>*É permitido tanto caracteres maíusculos quanto minusculos</p>
+    </div>
+
+    <main>
+        //disjunção disjuncao
+        <input type="text" id="letra1_disjuncao" maxlength="1">
+        <input type="text" id="letra2_disjuncao" maxlength="1">
+        <input type="text" id="letra3_disjuncao" maxlength="1">
+        <input type="text" id="letra4_disjuncao" maxlength="1">
+        <input type="text" id="letra5_disjuncao" maxlength="1">
+        <input type="text" id="letra6_disjuncao" maxlength="1">
+        <input type="text" id="letra7_disjuncao" maxlength="1">
+        <input type="text" id="letra8_disjuncao" maxlength="1">
+        <input type="text" id="letra9_disjuncao" maxlength="1">
+
+        <button type="button" id="corrigir">Corrigir</button>
+    </main>
 </body>
 </html>
