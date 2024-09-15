@@ -1,5 +1,5 @@
 ### Clonar Projeto
-#### gitt clone https://github.com/Namibo06/projeto-forca-logica-programacao-unex.git
+#### git clone https://github.com/Namibo06/projeto-forca-logica-programacao-unex.git
 
 ----------------------------------------------------------------
 
