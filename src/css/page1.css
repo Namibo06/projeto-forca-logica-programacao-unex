@@ -12,6 +12,31 @@ header{
 .header__box-gibbet span{
     position: absolute;
     top: 252px;
-    right: 108px;
+    left: 385px;
     font-size: 35px;
+}
+
+.header__question{
+    position: relative;
+    top: -200px;
+    left: 500px;
+    width: 600px;
+}
+
+main{
+    padding: 0 80px 20px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main input{
+    border: 0;
+    border-bottom: 1px solid #000;
+    width: 30px;
+    margin-right: 20px;
+    outline: 0;
+    text-align: center;
+    font-size: 30px;
 }
