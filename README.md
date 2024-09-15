@@ -1,2 +1,6 @@
-//terei 6 chances
-//colocar cabeça,corpo,braço esquerdo,braço direito,perna esquerda,perna direita
+### Clonar Projeto
+#### gitt clone https://github.com/Namibo06/projeto-forca-logica-programacao-unex.git
+
+----------------------------------------------------------------
+
+##### terá 5 a 6 chances, verificar qual fica melhor indo até zero
