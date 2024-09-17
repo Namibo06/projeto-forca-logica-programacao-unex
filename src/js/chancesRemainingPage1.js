@@ -8,12 +8,12 @@ document.addEventListener('DOMContentLoaded',() => {
     const letra7 = document.getElementById('letra7_disjuncao');
     const letra8 = document.getElementById('letra8_disjuncao');
     const letra9 = document.getElementById('letra9_disjuncao');
-    const corrigir = document.getElementById('corrigir');
+    const correct = document.getElementById('correct');
     
     const chancesRemaining = document.getElementById('chances');
     var chances = 5;
 
-    corrigir.addEventListener('click', () => {
+    correct.addEventListener('click', () => {
         
         if(chances >= 1){
             if(letra1 !== null && letra1 !== ""){
@@ -153,6 +153,8 @@ document.addEventListener('DOMContentLoaded',() => {
                 chances -= 1;
                 chancesRemaining.textContent= chances;
             }
+
+            //colocar em array,verificar todos as letras e mandar para próxima página
         }else{
             window.location.href="error.html";
         }
